@@ -43,6 +43,8 @@ export function TopPageHeader() {
             </motion.div>
           )}
         </AnimatePresence>
+        <appkit-account-button />
+        <appkit-network-button />
         <UserConnectionManager />
       </div>
     </div>

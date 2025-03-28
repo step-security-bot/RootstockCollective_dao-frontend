@@ -40,6 +40,7 @@ export const ConnectWorkflow = ({ ConnectComponent = ConnectButtonComponent }: C
 
   return (
     <>
+      <appkit-button />
       <ConnectComponent onClick={onConnectWalletButtonClick} />
       {flowState === 'disclaimer' && <DisclaimerFlow onAgree={handleConnectWallet} onClose={handleClose} />}
     </>
